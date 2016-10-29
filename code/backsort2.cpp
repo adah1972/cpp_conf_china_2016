@@ -38,11 +38,7 @@ vector<string> backsort(C&& lines)
             line));
     }
     ranges::sort(pairs);
-    return pairs | view::transform(
-                   [](const auto& pr)
-                   {
-                       return pr.second;
-                   });
+    return pairs | view::values;
 }
 
 int main(int argc, char* argv[])
