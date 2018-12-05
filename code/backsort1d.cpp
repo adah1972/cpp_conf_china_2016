@@ -3,8 +3,8 @@
 #include <istream>          // std::istream
 #include <string>           // std::string
 #include <vector>           // std::vector
-#include <boost/coroutine2/all.hpp>
 #include <range/v3/all.hpp>
+#include <boost/coroutine2/all.hpp>
 
 using namespace std;
 using namespace ranges;

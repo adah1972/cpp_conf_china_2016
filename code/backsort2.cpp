@@ -5,8 +5,8 @@
 #include <string>           // std::string
 #include <vector>           // std::vector
 #include <nvwa/file_line_reader.h>
-#include <boost/coroutine2/all.hpp>
 #include <range/v3/all.hpp>
+#include <boost/coroutine2/all.hpp>
 
 using namespace std;
 using namespace std::placeholders;
